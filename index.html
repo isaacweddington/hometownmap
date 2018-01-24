@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset=utf-8 />
-	<title>Web Page Template</title>
+	<title>The Town that Made Me </title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
@@ -71,18 +71,18 @@
 
 <section>
 
-	<h1>Vanceburg, KY</h1>
+	<h1>Vanceburg, KY: a Quiet, Ohio River town  </h1>
 
 	<div id='map'></div>
 
 
 		<h2>My Hometown</h2>
-		<p>Additional information about <a href="#">the data</a> and map goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis urna magna, maximus nec laoreet sit amet, dictum ultricies nibh. Ut id auctor lacus. Nam a dolor et justo luctus luctus.</p>
+
 
 		<ul>
-			<li>See my projects on GitHub: <a href="https://github.com/UKy-GIS">UKy GIS and Mapping</a> (please replace with YOUR GitHub account)</li>
-			<li>Follow me on twitter, instagram, etc.: <a href="https://twitter.com/boydshearer">@boydshearer</a> (please replace, yo!)</li>
-			<li>Visit my <a href='#'>mapping portfolio</a>. (got anything else to show us?)</li>
+			<li>See my projects on GitHub: <a href="https://github.com/isaacweddington">UKy GIS and Mapping</a></li>
+			<li>Follow me on twitter, instagram, etc.: <a href="https://twitter.com/isaacweddington">@isaacweddington</a></li>
+
 		</ul>
 	</section>
 
@@ -92,8 +92,8 @@
 
 		// map options
 		var options = {
-			center: [38.0406, -84.5037], // lat/lon values of your hometown!
-			zoom: 12
+			center: [38.5992, -83.3188], // lat/lon values of your hometown!
+			zoom: 15
 		}
 
 		// create a Leaflet map in our division container with id of 'map'
@@ -107,7 +107,7 @@
 		}).addTo(map);
 
 		// write a custom message for the Leaflet tooltip
-		var message = 'Lexington is awesome!';
+		var message = 'The best place on Earth, Vanceburg!';
 
 		// add a marker to the center of the map and open the tooltip
 		L.marker(map.getCenter())
